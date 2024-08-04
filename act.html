@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initialscale=1,maximum-scale=1">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Administrador</title>
+</head>
+<body>
+    
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span class="lab la-accusoft"></span> <span>Tienda Zombie</span></h2>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="index.html"><span class="las la-igloo"></span><span>Panel de Administrador</span></a>
+                </li>
+                <li>
+                    <a href="usu.html"><span class="las la-users"></span><span>Usuarios</span></a>
+                </li>
+                <li>
+                    <a href="act.html" class="active"><span class="las la-clipboard-list"></span><span>Actualizaciones</span></a>
+                </li>
+                <li>
+                    <a href="ord.html"><span class="las la-shopping-bag"></span><span>Ordenes</span></a>
+                </li>
+                <li>
+                    <a href="inv.html"><span class="las la-receipt"></span><span>Inventario</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+                Panel de Administrador
+            </h2>
+
+            <div class="search-wrapper">
+                <span class="las la-search"></span>
+                <input type="search" placeholder="Buscar Aquí" />
+            </div>
+
+            <div class="user-wrapper">
+                <img src="img/deadpool.jpg" width="40px" height="40px" alt="">
+                <div>
+                    <h4>Nicolas P.</h4>
+                    <small>Administrador</small>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="card-body">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Actualizaciones (+5)</h3>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="tabla-responsive">
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>Nombre</td>
+                                            <td>Encargado</td>
+                                            <td>Estado</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Sistema de Facturacion</td>
+                                            <td>Nicolas P.</td>
+                                            <td>
+                                                <span class="status red"></span>
+                                                Pendiente
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diseño Web</td>
+                                            <td>Maria P.</td>
+                                            <td>
+                                                <span class="status red"></span>
+                                                Pendiente
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Carrito de compras</td>
+                                            <td>Matias G.</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                En rebicion
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Actualizacion de cuentas</td>
+                                            <td>Matias G.</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                En rebicion
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diseño del Carrito</td>
+                                            <td>Maria P.</td>
+                                            <td>
+                                                <span class="status green"></span>
+                                                En progreso
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Actualizacion Inventario</td>
+                                            <td>Nicolas P.</td>
+                                            <td>
+                                                <span class="status green"></span>
+                                                En progreso
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
